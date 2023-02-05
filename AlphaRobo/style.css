@@ -1,0 +1,169 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background-color: rgb(250, 254, 255);
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header{
+    content: '';
+    top: -11px;; left:0; right:0; bottom:-11;
+    position: absolute;
+    background-color: rgb(92, 91, 91);
+    background:  linear-gradient(90deg, rgb(166, 162, 248) 15%, rgb(56, 105, 87) 35%, rgb(48, 38, 92) 100%);
+    box-shadow: 3px 15px 30px -11px rgba(0,0,0,0.37);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+nav a{
+    text-decoration: none;
+    color: lightgray;
+    margin-right: 24px;
+}
+
+header img{
+    height: 100px;
+    width: 130px;
+}
+
+
+h1{
+    margin: 0;
+    color: white;
+}
+
+
+
+.section1{
+    background-image: url('img/electrician-g4739ac963_1920.jpg');
+    height: calc(100vh - 80px);
+    object-fit: cover;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+
+}
+
+
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh ;
+    padding-left: 500px;
+    padding-right:  500px;
+
+    
+}
+.section3 {
+    background-image: url('img/RoboTec.jpeg');
+    height: 80vh;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+h2{
+    color: white;
+    font-size: 40px;
+
+}
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh ;
+    padding-left: 500px;
+    padding-right:  500px;
+}
+h3{
+    color: white;
+    font-size: 40px;
+}
+.section5 {
+    background-image: url('img/Alphabott.jpeg');
+    height: 80vh;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+footer{
+    background-color: rgb(224, 223, 223);
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ 
+.footerlogo{
+    height: 80px;
+    width: 80px;
+ }
+
+ .footerleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    padding: 10px 0;
+    padding-left: 250px;
+  
+
+ }
+
+ .footerright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-right: 250px;
+  
+ }
+
+
+ .socialmedia{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-right: 70px;
+
+ }
+
+.footermid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.footerlogo{
+    height: 200px;
+    width: 270px;
+}
+
+/*@media(max-width:850px){
+    nav{
+        display: none;
+    }
+}*/
